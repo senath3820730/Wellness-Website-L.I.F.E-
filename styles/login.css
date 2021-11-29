@@ -1,0 +1,258 @@
+body {
+    margin:0;
+    background-color: #fdfbf3;
+}
+
+.reg-log{
+    background-color: #beab86;
+    border-left: 3px solid #493819;
+    border-right: 3px solid #493819;
+    grid-area: navbar;
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
+    color: #111;
+    text-decoration: none;
+}
+
+.navbar {
+   grid-area: navbar;
+   border-top: 3px solid #493819;
+   border-bottom: 3px solid #493819;
+   height: fit-content;
+}
+
+#navs {
+   grid-area: navbar;
+   list-style-type: none;
+   text-align: center;
+   list-style-type: none;
+   background-color: #c8bca8;
+   margin: 0;
+   padding: 0;
+   
+}
+.align {
+   text-align: center;
+   display: inline;
+}
+
+.nav-element {
+   background-color: #c8bca8;
+}
+
+.nav-button {
+   display: inline-block;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding: 15px;
+   color: #111;
+   background-color: #c8bca8;
+   text-decoration: none;
+ }
+
+.nav-element a:hover {
+   background-color: #a29688;
+ }
+
+.content {
+   grid-area: content;
+}
+
+header {
+   grid-area: header;
+}
+
+#logo-position{
+   grid-area: header;
+   position: relative;
+   left: 38%;
+   width: 300px;
+   height: 150px;
+}
+
+.footer {
+   grid-area: footer;
+}
+
+.content-head{
+    position:relative;
+    display:inline-block;
+    width:100%;
+    height:auto;
+    min-height: 100px;
+    background-color: #a29688;
+}
+
+.main-heading{
+    position:absolute;
+    left:10px;
+    font-family:'Times New Roman', Times, serif;
+    color: #574a39;
+    font-size: 80px;
+    
+}
+
+#no-account{
+    width:580px;
+    margin-top: 10px;
+    margin-left: 28%;
+    margin-bottom: 10px;
+    background-color: #c8bca8;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+fieldset{
+    border-radius: 10px;
+    border:0px;
+    background-color: #c8bca8;
+    padding-top:15px;
+}
+
+form{
+    width:580px;
+    margin-top: 20px;
+    margin-left: 28%;
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 250px;
+    margin-bottom: 7px;
+    height:25px;
+    font-size: medium;
+}
+
+
+.label {
+    float: left;
+    width: 160px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #473c2e;
+}
+
+
+#enquiry-submit {
+    margin-left: 30px;
+}
+
+h2{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: #574a39;
+}
+
+
+.error-display {
+    color: red;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 4px;
+    margin-top: 0px;
+}
+
+.resources{
+    grid-area: covidr;
+}
+
+.covid-header {
+    position: absolute;
+    border-top: 7px solid #493819;
+    width: 100%;
+    height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    background-color: #c8bca8;
+    
+}
+
+.covid-info {
+   grid-area: covidr;
+   position: relative;
+   margin-top: 39px;
+   height: 100px;
+   width:100%;
+   display: inline-block;
+}
+
+.covid-icon{
+   position: absolute;
+   width:120px;
+   height: 90px;
+   margin-bottom: 0;
+   padding-bottom: 0;
+}
+
+.covid-description{
+   position: absolute;
+   top: 8px;
+   left: 125px;
+   padding-right: 5px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-bottom: 0;
+   padding-bottom: 0;
+}
+
+.covid-links{
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.resource{
+   padding-right: 10px;
+}
+
+.footer{
+   grid-area: footer;
+   border-top: 7px solid #493819;
+   background-color: #c8bca8;
+   height: 270px;
+}
+
+.list-header{
+   font-size: large;
+   padding-left:10px;
+}
+
+.footer-links{
+   list-style-type: none;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding-left:10px;
+   font-size:medium;
+}
+
+.footer-content{
+   vertical-align: top;
+   display: inline-block;
+   border-left: 1px solid #111;
+   margin-left:30px;
+   margin-top: 20px;
+}
+
+.footer-logo{
+   position:absolute;
+   right:0;
+   margin-top: 50px;
+}
+
+.wrapper {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-template-areas:
+       "header  header  header"
+       "navbar navbar navbar"
+       "content content content"
+       "covidr covidr covidr"
+       "footer  footer  footer";
+   background-color: #fdfbf3;
+   
+   
+}

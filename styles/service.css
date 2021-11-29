@@ -1,0 +1,393 @@
+body {
+    margin:0;
+    background-color: #fdfbf3;
+}
+
+#register{
+    background-color: #beab86;
+    border-left: 3px solid #493819;
+    border-right: 3px solid #493819;
+}
+
+.navbar {
+   grid-area: navbar;
+   border-top: 3px solid #493819;
+   border-bottom: 3px solid #493819;
+   height: fit-content;
+}
+
+#navs {
+   grid-area: navbar;
+   list-style-type: none;
+   text-align: center;
+   list-style-type: none;
+   background-color: #c8bca8;
+   margin: 0;
+   padding: 0;
+   
+}
+
+.reg-log{
+    background-color: #beab86;
+    border-left: 3px solid #493819;
+    border-right: 3px solid #493819;
+    grid-area: navbar;
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
+    color: #111;
+    text-decoration: none;
+ }
+
+.align {
+   text-align: center;
+   display: inline;
+}
+
+#nav-img{
+   position: relative;
+   top:6px;
+}
+
+#user-nav-element{
+ position: relative;
+ left: 20px;
+}
+
+.nav-element {
+   background-color: #c8bca8;
+}
+
+.nav-button {
+   display: inline-block;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding: 15px;
+   color: #111;
+   background-color: #c8bca8;
+   text-decoration: none;
+ }
+
+.nav-element a:hover {
+   background-color: #a29688;
+ }
+
+.content {
+   grid-area: content;
+}
+
+header {
+   grid-area: header;
+}
+
+#logo-position{
+   grid-area: header;
+   position: relative;
+   left: 38%;
+   width: 300px;
+   height: 150px;
+}
+
+.footer {
+   grid-area: footer;
+}
+
+.content-head{
+    position:relative;
+    display:inline-block;
+    width:100%;
+    height:auto;
+    min-height: 100px;
+    background-color: #a29688;
+}
+
+.main-heading{
+    position:absolute;
+    left:10px;
+    font-family:'Times New Roman', Times, serif;
+    color: #574a39;
+    font-size: 80px;
+}
+
+.resources{
+    grid-area: covidr;
+}
+
+.service-icon{
+  display: inline-block;
+  text-decoration: none;
+  background-color: #c8bca8;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-left: 25.9%;
+  margin-bottom: 20px;
+  padding:15px;
+}
+
+.Yoga-icon{
+   margin-left: 35.5%;
+}
+
+.Meditation-icon{
+   margin-left: 29%;
+}
+
+.Stretching-icon{
+   margin-left: 30%;
+}
+
+.meal-card{
+   width: 700px;
+   background-color: #cfb28c;
+   border-radius: 8px;
+   padding: 4px;
+   margin-top:20px;
+   margin-bottom: 30px;
+   margin-left: 25%;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item-header{
+   font-size: large;
+}
+
+.menu-thumb{
+   height:90px;
+   width:140px;
+   border-radius: 8px;
+   border:3px solid #493819;
+}
+
+.meal-header{
+   border-bottom:4px solid #493819;
+   font-size: large;
+}
+
+.menu-item{
+   padding-top: 5px;
+   background-color: #b69d70; 
+   width: 100%;
+   border-bottom:4px solid #493819;
+}
+
+.meal-instruction{
+   width: 700px;
+   margin-left: 25%;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   border-radius: 8px;
+   padding: 5px;
+   margin-top:10px;
+   margin-bottom: 10px;
+   background-color: #c8bca8;
+   text-align: center;
+   font-size: large;
+}
+
+.item-descrip{
+   position: absolute;
+   margin-top: 30px;
+   margin-left: 10px;
+}
+
+.success-message{
+   background-color: #a09079;
+   text-align: center;
+   margin-top: 7px;
+   font-family:'Times New Roman', Times, serif;
+   font-size: large;
+   margin-bottom: 7px;
+   border-radius: 7px;
+}
+
+.form{
+    width:580px;
+    padding:10px;
+    margin-top: 20px;
+    margin-left: 28%;
+    margin-bottom: 30px;
+    background-color: #c8bca8;
+    border-radius: 8px;
+}
+
+.button-input {
+    width: 250px;
+    margin-top: 10px;
+    height:25px;
+    margin-left: 27px;
+    font-size: medium;
+}
+
+.input {
+    width: 250px;
+    margin-top: 10px;
+    height:25px;
+    margin-left: 27px;
+    font-size: medium;
+}
+
+.center-box {
+    margin-left: 90px;
+}
+
+.type-label {
+    float: left;
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #473c2e;
+}
+
+.tutorial{
+    margin-top: 15px;
+    margin-left:30px;
+    width:520px;
+    height:450px;
+    margin-bottom: 15px;
+}
+
+.tut-audio{
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left:55px;
+}
+
+.radio-box{
+    width:fit-content;
+    min-width: 115px;
+    background-color:#af9d87;
+    margin-top: 10px;
+    margin-left: 220px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding:10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.service-descrip{
+   width:580px;
+   margin-left: 28%;
+   background-color: #c8bca8;
+   padding:10px;
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   border-radius: 8px;
+}
+
+.label {
+    float: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #473c2e;
+}
+
+.icon-name{
+    position: relative;
+    display: inline-block;
+    color: #574a39;
+    margin-left: 10px;
+    bottom: 70px;
+    font-size: 80px;
+}
+
+.error-display {
+    color: red;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 4px;
+    margin-top: 0px;
+}
+
+.covid-header {
+    position: absolute;
+    border-top: 7px solid #493819;
+    width: 100%;
+    height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    background-color: #c8bca8;
+    
+}
+
+.covid-info {
+   grid-area: covidr;
+   position: relative;
+   margin-top: 39px;
+   height: 100px;
+   width:100%;
+   display: inline-block;
+}
+
+.covid-icon{
+   position: absolute;
+   width:120px;
+   height: 90px;
+   margin-bottom: 0;
+   padding-bottom: 0;
+}
+
+.covid-description{
+   position: absolute;
+   top: 8px;
+   left: 125px;
+   padding-right: 5px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-bottom: 0;
+   padding-bottom: 0;
+}
+
+.covid-links{
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.resource{
+   padding-right: 10px;
+}
+
+.footer{
+   grid-area: footer;
+   border-top: 7px solid #493819;
+   background-color: #c8bca8;
+   height: 270px;
+}
+
+.list-header{
+   font-size: large;
+   padding-left:10px;
+}
+
+.footer-links{
+   list-style-type: none;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding-left:10px;
+   font-size:medium;
+}
+
+.footer-content{
+   vertical-align: top;
+   display: inline-block;
+   border-left: 1px solid #111;
+   margin-left:30px;
+   margin-top: 20px;
+}
+
+.footer-logo{
+   position:absolute;
+   right:0;
+   margin-top: 50px;
+}
+
+.wrapper {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-template-areas:
+       "header  header  header"
+       "navbar navbar navbar"
+       "content content content"
+       "covidr covidr covidr"
+       "footer  footer  footer";
+   background-color: #fdfbf3;
+   
+   
+}

@@ -1,0 +1,369 @@
+body {
+    margin:0;
+    background-color: #fdfbf3;
+}
+
+.reg-log{
+   background-color: #beab86;
+   border-left: 3px solid #493819;
+   border-right: 3px solid #493819;
+   grid-area: navbar;
+   list-style-type: none;
+   text-align: center;
+   display: inline-block;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding: 15px;
+   color: #111;
+   text-decoration: none;
+}
+
+#nav-img{
+   position: relative;
+   top:6px;
+}
+
+#user-nav-element{
+ position: relative;
+ left: 20px;
+}
+
+
+.navbar {
+   grid-area: navbar;
+   border-top: 3px solid #493819;
+   border-bottom: 3px solid #493819;
+   height: fit-content;
+}
+
+#navs {
+   grid-area: navbar;
+   list-style-type: none;
+   text-align: center;
+   list-style-type: none;
+   background-color: #c8bca8;
+   margin: 0;
+   padding: 0;
+   
+}
+.align {
+   text-align: center;
+   display: inline;
+}
+
+.nav-element {
+   background-color: #c8bca8;
+}
+
+.nav-button {
+   display: inline-block;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding: 15px;
+   color: #111;
+   background-color: #c8bca8;
+   text-decoration: none;
+ }
+
+.nav-element a:hover {
+   background-color: #a29688;
+ }
+
+.content {
+   grid-area: content;
+}
+
+header {
+   grid-area: header;
+}
+
+#logo-position{
+   grid-area: header;
+   position: relative;
+   left: 38%;
+   width: 300px;
+   height: 150px;
+}
+
+.footer {
+   grid-area: footer;
+}
+
+
+.content-head{
+  position:relative;
+  display:inline-block;
+  width:100%;
+  height:auto;
+  min-height: 215px;
+  background-color: #a29688;
+}
+
+h4{
+   padding-left:10px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: larger;
+}
+
+
+.content-list{
+   list-style-type:square;
+   padding-left:30px;
+   padding-right: 10px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: large;
+    
+}
+
+
+
+
+.table-contents{
+   top:10px;
+   left:10px;
+   position:absolute;
+   border: 2px solid #c8bca8;
+   border-left: 8px solid #c8bca8;
+}
+
+.main-heading{
+   position:absolute;
+   left:270px;
+   font-family:'Times New Roman', Times, serif;
+   color: #574a39;
+   font-size: 80px;
+   margin-top: 65px;
+}
+
+
+
+.main-content{
+   position: relative;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: large;
+   padding-left: 10px;
+   padding-right: 10px;
+   
+}
+
+
+.media-right{
+   float:right;
+   margin: 3px;
+   border-radius: 5px;
+   width: 430px;
+   object-fit: fill;
+   height: 260px;
+   border: 8px solid #a29688;
+}
+
+#sec2{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    color: #574a39;
+}
+
+#user-input {
+    width: 400px;
+    height:450px;
+    background-color: #cfb28c;
+    border-radius: 8px;
+    margin-left:36%;
+    margin-bottom: 20px;
+}
+
+.measures-wrapper{
+    width: 100%;
+    margin-top:20px;
+    background-color: #b69d70;
+    
+}
+
+#meal-submit{
+    margin-left: 145px;
+    margin-top:40px;
+    width: 100px;
+}
+
+.label {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-top:10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3a3024;
+}
+
+.measures{
+    margin-top: 10px;
+    width:150px;
+    margin-left: 120px;
+    margin-bottom: 15px;
+}
+
+.error {
+    color: red;
+    font-size: 15px;
+    height: 5px;
+    display: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.diet-button{
+    width:150px;
+    height:100px;
+    margin-top: 15px;
+    margin-left: 24px;
+    padding:3px;
+    border:4px solid #7a5f2b;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.397);
+}
+
+.diet-button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.637);
+}
+
+.meal-card{
+    width: 700px;
+    background-color: #cfb28c;
+    border-radius: 8px;
+    padding: 4px;
+    margin-top:20px;
+    margin-bottom: 30px;
+    margin-left: 25%;
+    display: none;
+}
+
+.meal-header{
+    border-bottom:4px solid #493819;
+}
+
+.menu-item{
+    padding-top: 5px;
+    background-color: #b69d70; 
+    width: 100%;
+    border-bottom:4px solid #493819;
+}
+
+.menu-thumb{
+    height:90px;
+    width:140px;
+    border-radius: 8px;
+    border:3px solid #493819;
+}
+
+
+
+.item-descrip{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.resources{
+    grid-area: covidr;
+}
+
+.covid-header {
+    position: absolute;
+    border-top: 7px solid #493819;
+    width: 100%;
+    height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    background-color: #c8bca8;
+    
+}
+
+.covid-info {
+   grid-area: covidr;
+   position: relative;
+   margin-top: 39px;
+   height: 100px;
+   width:100%;
+   display: inline-block;
+}
+
+.covid-icon{
+   position: absolute;
+   width:120px;
+   height: 90px;
+   margin-bottom: 0;
+   padding-bottom: 0;
+}
+
+.covid-description{
+   position: absolute;
+   top: 8px;
+   left: 125px;
+   padding-right: 5px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-bottom: 0;
+   padding-bottom: 0;
+}
+
+dt{
+   list-style-type: disc;
+   display: list-item;  
+   margin-left:2em; 
+   font-size: large;
+}
+
+.covid-links{
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.resource{
+   padding-right: 10px;
+}
+
+.footer{
+   grid-area: footer;
+   border-top: 7px solid #493819;
+   background-color: #c8bca8;
+   height: 270px;
+}
+
+.list-header{
+   font-size: large;
+   padding-left:10px;
+}
+
+.footer-links{
+   list-style-type: none;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding-left:10px;
+   font-size:medium;
+}
+
+.footer-content{
+   vertical-align: top;
+   display: inline-block;
+   border-left: 1px solid #111;
+   margin-left:30px;
+   margin-top: 20px;
+}
+
+.footer-logo{
+   position:absolute;
+   right:0;
+   margin-top: 50px;
+}
+
+.wrapper {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-template-areas:
+       "header  header  header"
+       "navbar navbar navbar"
+       "content content content"
+       "covidr covidr covidr"
+       "footer  footer  footer";
+   background-color: #fdfbf3;
+   
+   
+}
