@@ -2,9 +2,9 @@
 
 // Constants.
 const SERVER_NAME = 'rmit.australiaeast.cloudapp.azure.com';
-const DB_NAME = 's3820730_a2';
+const DB_NAME = 'XXXXXXXXXX';
 const USERNAME = DB_NAME;
-const PASSWORD = 'heliloku21H*';
+const PASSWORD = 'XXXXXXXX';
 
 const DNS = 'mysql:host=' . SERVER_NAME . ';dbname=' . DB_NAME;
 

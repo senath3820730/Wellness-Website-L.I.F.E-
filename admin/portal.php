@@ -3,7 +3,7 @@
 require_once('../includes/functions.php');
 $users = getUsers();
 
-const API_KEY = '33344d4d86b0ba85519b5c97f188cecc'; 
+const API_KEY = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'; 
 $url= "api.openweathermap.org/data/2.5/weather?id=2158177&units=metric&appid=" . API_KEY;
 
     $ch = curl_init();
